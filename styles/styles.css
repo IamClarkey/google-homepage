@@ -49,21 +49,31 @@ padding-right: 10px;
 
 #input {
   width: 400px;
-  height: 26px;
-}
+  height: 20px;
+  text-align: left;
+  font-size: 20px;
+  margin: auto;
 
-#search {
-  height: 36px;
-  width: 400px;
-  border: 1px solid black;
-  position: absolute;
-  display: block;
-  /*margin: 0 auto;*/
 }
 
 #sjc {
+/*  height: 36px;
+  width: 400px;/*
+  margin-left: 220px;
+  display: block;
   overflow: hidden;
   position: absolute;
-  text-align: initial;
-  text-overflow: ellipsis;
+  text-align: center;
+  text-overflow: ellipsis;*/
+  margin: auto;
+  padding-top: 20px;
+}
+
+.center {
+  margin: auto;
+  padding-top: 20px;
+}
+
+.apps {
+
 }
