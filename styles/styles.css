@@ -54,6 +54,8 @@ padding-right: 10px;
   font-size: 20px;
   margin: auto;
   padding: 5px;
+  position: absolute;
+  z-index: 1;
 
 }
 
@@ -68,17 +70,20 @@ padding-right: 10px;
   text-overflow: ellipsis;*/
   margin: auto;
   width: auto;
-  padding-top: 20px;
+  padding-top: 2px;
   background: transparent;
   border: none;
   cursor: auto;
   display: inline-block;
+  position: absolute;
+  z-index: 2;
 }
 
 .center {
   margin: auto;
   padding-top: 10px;
   text-align: center;
+  position: relative;
 }
 
 .apps {
