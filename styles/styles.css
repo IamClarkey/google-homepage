@@ -26,12 +26,12 @@ img {
 
 li {
   display: inline;
-  padding-right: 8px;
+  padding-right: 10px;
 }
 
 .search {
   width: 100%;
-  height: 100px;
+  height: 30px;
   position: relative;
   display: inline-block;
   text-align: center;
@@ -50,8 +50,6 @@ li {
   z-index: 3;
   /*text-align: left;*/
   margin: 0 auto;
-
-
 }
 
 .hidden {
@@ -59,4 +57,20 @@ li {
   visibility: hidden;
   z-index: 1;
   margin: 0 auto;
+}
+
+.button {
+  text-decoration: none;
+  color: grey;
+  border: 1px solid #f5f5f5;
+  width: 25px;
+  height: auto;
+  background-color: #efeff5;
+}
+
+ol {
+    text-align: center;
+    padding-top: 20px;
+    padding-left: -10px;
+
 }
