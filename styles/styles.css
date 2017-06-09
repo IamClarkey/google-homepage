@@ -88,10 +88,11 @@ ol {
 .footer {
 list-style-type: none;
 text-decoration: none;
-width: auto;
+width: 100%;
 height: auto;
 display: block;
-background-color: blue /*#efeff5*/;
+bottom: 0;
+position: fixed;
 }
 
 .f-right {
@@ -108,11 +109,6 @@ background-color: blue /*#efeff5*/;
   text-decoration-color: grey;
   width: 200px;
   padding-left: 5px;
-}
-
-.space {
-  width: auto;
-  height: 175px;
 }
 
 a {
